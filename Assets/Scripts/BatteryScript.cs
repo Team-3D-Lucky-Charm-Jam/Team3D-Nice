@@ -13,8 +13,8 @@ public class Flashlight : MonoBehaviour
 
     public void SetChargeLevel(float fCharge)
     {
-        flashTimer = (1.0f - Mathf.Clamp01(fCharge)) * fRunTimeFullCharge;
-        Debug.Log(fTimer);
+        flashTimer = (1.0f - Mathf.Clamp01(fCharge)) * fRunTimeForFullCharge;
+        Debug.Log(flashTimer);
     }
 
     void Start()
@@ -26,10 +26,10 @@ public class Flashlight : MonoBehaviour
 
     void Update()
     {
-        if (flashTimer < 0.0f || flashTimer > fRunForTimeFullCharge)
+        if (flashTimer < 0.0f || flashTimer > fRunTimeForFullCharge)
             return;
-        chargeLevel = flashTimer / fRunTimeFullCharge;
-        light.intensity = ac.Evaluate(chargeLevel);
+        chargeLevel = flashTimer / fRunTimeForFullCharge;
+        GetComponent<Light>().intensity = ac.Evaluate(chargeLevel);
         flashTimer += Time.deltaTime;
     }
 }
