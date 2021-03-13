@@ -339,7 +339,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4bfc41a380001094aac1702e6d184f68, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -393,6 +393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Climbing Wall 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 488063745816380559, guid: 29249a38ca3b0aa40b0ed2624e5a5792,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3543188169185515894, guid: 29249a38ca3b0aa40b0ed2624e5a5792,
         type: 3}
