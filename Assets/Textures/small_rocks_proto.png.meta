@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d1aa821d35db5bd4fa48b8a14bac6e5c
+=======
+guid: e06a9ad0571925e43acbe2ba9ca86480
+>>>>>>> master
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -58,7 +62,23 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
   platformSettings: []
+=======
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> master
   spriteSheet:
     serializedVersion: 2
     sprites: []
