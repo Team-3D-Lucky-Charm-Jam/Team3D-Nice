@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 55b5f41f54761e941aa4fb265ea1cee5
+=======
 guid: 0c9559621ea05c74a9aba8b6a2b29434
+>>>>>>> master
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -58,6 +62,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
+  platformSettings: []
+=======
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -71,6 +78,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> master
   spriteSheet:
     serializedVersion: 2
     sprites: []
