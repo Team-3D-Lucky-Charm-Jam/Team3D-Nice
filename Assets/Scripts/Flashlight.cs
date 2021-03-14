@@ -4,12 +4,13 @@ using System.Collections;
 
 public class Flashlight : MonoBehaviour
 {
-    public float fRunTimeForFullCharge = 900.0f;
+    public float fRunTimeForFullCharge = 300.0f;
     public AnimationCurve ac = new AnimationCurve();
 
-    float flashTimer = 0.0f;
+    float flashTimer = 1.0f;
     float fMaxIntensity;
     public float chargeLevel; // Can't set level here
+    public float chargeIncrementer;
 
     public void SetChargeLevel(float fCharge)
     {
@@ -28,8 +29,14 @@ public class Flashlight : MonoBehaviour
     {
         if (flashTimer < 0.0f || flashTimer > fRunTimeForFullCharge)
             return;
-        chargeLevel = flashTimer / fRunTimeForFullCharge;
-        GetComponent<Light>().intensity = ac.Evaluate(chargeLevel);
-        flashTimer += Time.deltaTime;
+        chargeLevel = flashTimer;
+        GetComponent<Light>().intensity = chargeLevel;
+        flashTimer -= Time.deltaTime / fRunTimeForFullCharge;
     }
+
+    public void ResetFlashTimer()
+    {
+        flashTimer = 1.0f;
+    }
+
 }
