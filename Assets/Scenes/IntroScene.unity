@@ -338,7 +338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aSource: {fileID: 1642721566}
   ac: {fileID: 8300000, guid: be89504799f08f1478d0c5aafb817189, type: 3}
-  nextScene: 
+  nextScene: LevelScene
   time: 0
 --- !u!4 &1390545806
 Transform:
