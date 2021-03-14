@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Exported from 3D Builder
 mtllib Plunger Box Proto.mtl
 
@@ -736,3 +737,8 @@ f 173/187 175/189 177/191
 f 178/192 174/188 176/190
 f 178/192 172/186 174/188
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a6199d347a4b92f1ed5e86cf98ba25db523973c7ef170d173deacbcffbb95d2
+size 17787
+>>>>>>> master
